@@ -12,7 +12,7 @@ class Stats extends Component {
 		return(
 			<div className = 'tc'>
 			<div className=''>
-				<img alt='img' src="http://covid.gov.pk/theme_img/core-img/Corona-Logo2.gif"/>
+				<img alt='img' src="https://covid.gov.pk/theme_img/core-img/Corona-Logo2.gif"/>
 			</div>
 			<div className='fl w-100 tc flex justify-center'>
 				<div className='fl w-40 b-grey dim pointer bg-washed-red br3 pa2 bw2 ma2 shadow-5'>
