@@ -10,8 +10,15 @@
 body {
   font-family: 'Baloo Bhaina 2', cursive;
   background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(237,255,231,1) 100%);
-}
+background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+ 
+/*background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(237,255,231,1) 100%);
+*/}
 
 .App {
   text-align: center;
@@ -19,11 +26,61 @@ background: radial-gradient(circle, rgba(255,255,255,1) 5%, rgba(237,255,231,1) 
 
 
 .header {
-	background-color: #3bb78f;
-	background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+	/*background-color: #3bb78f;
+	background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);*/
 	margin: 10px;
+  margin-bottom: 0;
 	padding: 10px;
-	color: white;
+  padding-bottom: 0;
+	color: #EDE2F1;
 	text-transform: uppercase;
 	font-weight: 800;
+}
+
+
+#spin {
+  color: #EDE2F1;
+}
+
+#spin:after {
+  content:"";
+  animation: spin 25s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    content:"#StayHome";
+  }
+  10% {
+    content:"#StaySafe";
+  }
+  20% {
+    content:"Clean your hands often";
+  }
+   30% {
+    content:"Maintain a safe distance";
+  }
+  40% {
+    content:"Don’t touch your eyes, nose or mouth";
+  }
+  50% {
+    content: "Practice respiratory hygiene";
+  }
+   60% {
+    content: "Self isolate";
+  }
+  70% {
+    content: "Help others";
+  }
+  80% {
+    content: "Wear a face mask";
+  }
+   90% {
+    content: "Be productive";
+  }
+  100% {
+    content: "Be productive";
+  }
+
 }

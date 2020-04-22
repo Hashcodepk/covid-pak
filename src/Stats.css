@@ -1,5 +1,6 @@
-.imge {
-
+.img {
+    height: 100px;
+    width: auto;
 }
 
 .confirm {
@@ -45,7 +46,7 @@
 	font-weight: 700;
     font-size: 20px;
     line-height: 0.9;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
 }
 
@@ -53,7 +54,7 @@
     font-weight: 700;
     font-size: 10px;
     line-height: 0.9;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
 }
 
@@ -61,7 +62,7 @@
 .stat-head-update {
 	font-weight: 600;
     font-size: 8px;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -113,7 +114,7 @@
 	font-weight: 700;
     font-size: 12px;
     line-height: 0.9;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
 }
 
@@ -121,7 +122,7 @@
 .stat-head-update {
 	font-weight: 600;
     font-size: 8px;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: 0.9;
@@ -130,7 +131,7 @@
     font-weight: 700;
     font-size: 8px;
     line-height: 0.9;
-    color: #67336e;
+    color: #C09CC5;
     letter-spacing: 2px;
 }
 }

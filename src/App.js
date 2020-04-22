@@ -33,7 +33,8 @@ class App extends Component {
 			return(
 				<div className="App">
     				<div className='fl w-100 pa2'>
-						<h1 className='header'>Covid-19 In Pakistan</h1>
+	    				<p className="pt1"><span id="spin"></span></p>
+	    				<h1 className='header'>Covid-19 In Pakistan</h1>
 					</div>		
     				<Stats data={this.state.data} />
     			</div>
