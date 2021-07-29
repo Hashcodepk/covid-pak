@@ -58,13 +58,17 @@ class Stats extends Component {
           <div className="fl w-30 b-grey dim pointer ctl-background br3 pa2 bw2 ma2 shadow-5">
             <div className="fl w-100 stat-head pt1 ctl">Critical</div>
             <div className="fl w-100">
-              <span className="stat ctl">{this.props.data.cases.critical}</span>
+              <span className="stat ctl">
+                {this.addCommas(this.props.data.cases.critical)}
+              </span>
             </div>
           </div>
           <div className="fl w-30 b-grey dim pointer dts-background br3 pa2 bw2 ma2 shadow-5">
             <div className="fl w-100 stat-head pt1 dts">Total Deaths</div>
             <div className="fl w-100">
-              <span className="stat dts">{this.props.data.deaths.total}</span>
+              <span className="stat dts">
+                {this.addCommas(this.props.data.deaths.total)}
+              </span>
             </div>
           </div>
         </div>
@@ -73,14 +77,18 @@ class Stats extends Component {
             <div className="fl w-100 stat-head-24 pt1 c24">24h</div>
             <div className="fl w-100 stat-head  c24">Cases</div>
             <div className="fl w-100">
-              <span className="stat c24">{this.props.data.cases.new}</span>
+              <span className="stat c24">
+                {this.addCommas(this.props.data.cases.new)}
+              </span>
             </div>
           </div>
           <div className="fl w-30 b-grey dim pointer d24-background br3 pa2 bw2 ma2 shadow-5">
             <div className="fl w-100 stat-head-24 pt1 d24">24h</div>
             <div className="fl w-100 stat-head  d24">Deaths</div>
             <div className="fl w-100">
-              <span className="stat d24">{this.props.data.deaths.new}</span>
+              <span className="stat d24">
+                {this.addCommas(this.props.data.deaths.new)}
+              </span>
             </div>
           </div>
         </div>
